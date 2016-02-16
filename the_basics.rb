@@ -17,3 +17,21 @@ movies = { jaws: 1975,
            a_beautiful_mind: 2001,
            the_evil_dead: 1981 }
 movies.each { |movie, year| puts year }
+
+# Exercise 4
+years = [1975, 2004, 2013, 2001, 1981]
+years.each { |year| puts year }
+
+# Exercise 5
+puts 5 * 4 * 3 * 2 * 1
+puts 6 * 5 * 4 * 3 * 2 * 1
+puts 7 * 6 * 5 * 4 * 3 * 2 * 1
+puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+
+# Exercise 6
+puts 5.67 ** 2
+puts 5.67 * 5.67
+
+puts 6.78 ** 2
+puts 123.67 ** 2
+
